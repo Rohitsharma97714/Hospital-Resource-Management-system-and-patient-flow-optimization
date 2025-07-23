@@ -12,7 +12,7 @@ import AllAppointment from './pages/Admin/AllAppointment';
 import DoctorList from "./pages/Admin/DoctorList";
 import AddHospital from "./pages/Admin/AddHospital";
 import Map from "./pages/Admin/Map";
-import HospitalList from "./pages/Admin/hospitalList";
+import HospitalList from "./pages/Admin/HospitalList";
 import BedStatus from "./pages/Admin/BedStatus";
 import { DoctorContext } from "./contexts/DoctorContext";
 import DoctorDashboard from "./pages/Doctor/DoctorDashboard";
