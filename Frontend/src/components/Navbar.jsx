@@ -62,7 +62,15 @@ function Navbar() {
           <li className="py-1">Contact</li>
           <hr className="transition-all duration-300 ease-in-out border-none outline-none h-0.5 bg-primary w-0 m-auto group-hover:w-3/5" />
         </NavLink>
-        <a target="_blank" href=' https://hospital-resource-management-system-mocha.vercel.app' class="border px-5 text-xs py-1.5 rounded-full">Admin Panel</a>
+        <a
+          href="https://hospital-resource-management-system-mocha.vercel.app"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="border px-4 py-2 rounded-full text-sm text-center text-blue-600 hover:underline"
+        >
+          Admin Panel
+        </a>
+
       </ul>
       <div className="flex items-center gap-4 ">
         {
